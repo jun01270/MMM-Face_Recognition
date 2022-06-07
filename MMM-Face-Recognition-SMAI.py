@@ -21,7 +21,7 @@ output = np.empty((240, 320, 3), dtype=np.uint8)
 
 # Load a sample picture and learn how to recognize it.
 print("Loading known face image(s)")
-rec_image = face_recognition.load_image_file("/home/pi/MagicMirror/modules/MMM-Face-Recognition-SMAI/public/face.png")
+rec_image = face_recognition.load_image_file("/home/pi/MagicMirror/modules/MMM-Face-Recognition-SMAI/public/본인사진이름-id.png")
 rec_face_encoding = face_recognition.face_encodings(rec_image)[0]
 
 # Initialize some variables
