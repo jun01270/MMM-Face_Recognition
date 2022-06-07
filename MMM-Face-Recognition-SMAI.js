@@ -3,7 +3,7 @@ Module.register("MMM-Face-Recognition-SMAI", {
 
 defaults: {
   prompt: "Use FaceID to access profiles",
-  fileUrl: "modules/MMM-Face-Recognition-SMAI/public/face.png",
+  fileUrl: "modules/MMM-Face-Recognition-SMAI/public/자기사진이름-id.png",
   width: "200px",
   position: "left",
   refreshInterval: 2
